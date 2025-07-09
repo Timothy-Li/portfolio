@@ -5,3 +5,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+.typewriter-cursor {
+  color: red; /* <-- TEST THIS */
+  font-weight: bold;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}

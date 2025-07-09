@@ -1,27 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 const phrases = [
   "Pharmacist",
-  "Father",
-  "Technical",
+  "Problem Solver",
   "Creative",
   "Software Developer",
 ];
 
 export default function Home() {
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    if (index < phrases.length - 1) {
-      const interval = setInterval(() => {
-        setIndex((prev) => prev + 1);
-      }, 2000);
-
-      return () => clearInterval(interval);
-    }
-  }, [index]);
+  const [isDone, setIsDone] = useState(false);
 
   return (
     <section
@@ -31,8 +21,25 @@ export default function Home() {
       <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">
         Timothy Li
       </h1>
-      <p className="text-xl md:text-2xl text-gray-600 transition-opacity duration-500">
-        {phrases[index]}
+      <p className="text-xl md:text-2xl text-gray-600 flex items-center justify-center">
+        {isDone ? (
+          "Software Developer"
+        ) : (
+          <>
+            <Typewriter
+              words={phrases}
+              loop={1}
+              cursor={false}
+              typeSpeed={70}
+              deleteSpeed={40}
+              delaySpeed={1200}
+              onLoopDone={() => setIsDone(true)}
+            />
+            <span style={{ display: "inline-block", width: "8px" }}>
+              &nbsp;
+            </span>
+          </>
+        )}
       </p>
     </section>
   );
