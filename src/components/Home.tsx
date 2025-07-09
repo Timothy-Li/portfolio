@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const phrases = [
   "Pharmacist",
-  "Proud Dad",
+  "Father",
   "Technical",
   "Creative",
   "Software Developer",
