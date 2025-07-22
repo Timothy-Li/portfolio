@@ -19,10 +19,10 @@ export default function Home() {
       id="home"
       className="relative min-h-screen  flex flex-col justify-center items-center text-center"
     >
-      <h1 className="text-5xl md:text-8xl font-semibold text-slate-600 mb-4">
+      <h1 className="text-4xl md:text-7xl font-semibold text-slate-600 mb-4">
         Timothy Li
       </h1>
-      <p className="text-2xl md:text-4xl text-teal-600 flex items-center justify-center">
+      <p className="text-1xl md:text-3xl text-teal-600 flex items-center justify-center">
         {isDone ? (
           "Software Developer"
         ) : (

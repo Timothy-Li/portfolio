@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 
 export default function Contact() {
   const [status, setStatus] = useState<
@@ -36,16 +37,16 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center"
+      className="relative min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center pb-0"
     >
       <div className="max-w-xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-semibold mb-20 text-gray-600">
+        <h1 className="text-3xl md:text-4xl font-semibold mb-16 text-gray-600">
           Get in Touch
         </h1>
 
         <form
           onSubmit={handleSubmit}
-          className="space-y-8 shadow p-10 rounded-md"
+          className="space-y-8 shadow-md shadow-gray-800/20 p-10 rounded-md"
         >
           <input
             type="text"
@@ -76,7 +77,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="border text-teal-800 px-6 py-2 rounded transition-colors hover:border-teal-600"
+            className="border text-gray-800 px-6 py-2 rounded transition-colors hover:border-teal-600 hover:text-teal-600 font-semibold"
             disabled={status === "sending"}
           >
             {status === "sending" ? "Sending..." : "Send"}
@@ -93,6 +94,35 @@ export default function Contact() {
             </p>
           )}
         </form>
+
+        <div className="flex justify-center gap-10 mt-28">
+          <a
+            href="https://github.com/Timothy-Li"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-8 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-teal-700 hover:border-teal-700 transition"
+          >
+            <FaGithub className="w-6 h-6" />
+          </a>
+
+          <a
+            href="/timli-cv.pdf"
+            download
+            className="flex items-center gap-2 p-7 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-teal-700 hover:border-teal-700 transition"
+          >
+            <FaFileDownload className="w-6 h-6" />
+            <span className="hidden md:inline">Download CV</span>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/timothy-h-h-li"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-8 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-teal-700 hover:border-teal-700 transition"
+          >
+            <FaLinkedin className="w-6 h-6" />
+          </a>
+        </div>
       </div>
     </section>
   );
