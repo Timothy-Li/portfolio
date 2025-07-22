@@ -7,11 +7,11 @@ export default function About() {
       className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-20"
     >
       <div className="max-w-3xl">
-        <h1 className="text-3xl md:text-4xl font-semibold mb-16 text-gray-800">
+        <h1 className="text-3xl md:text-4xl font-semibold mb-16 text-gray-700">
           My Story
         </h1>
 
-        <div className="space-y-8 text-lg md:text-xl text-gray-700 leading-relaxed">
+        <div className="space-y-8 text-lg md:text-xl text-gray-600 leading-relaxed">
           <p>
             Hi, I'm Tim. At school, my favourite subjects were Science, Maths
             and Art. Like other kids my age, I wasn't sure what I wanted to do
