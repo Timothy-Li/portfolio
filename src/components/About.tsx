@@ -4,14 +4,14 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-20 bg-white"
+      className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 py-20"
     >
       <div className="max-w-3xl">
-        <h1 className="text-2xl md:text-3xl font-semibold mb-10 text-gray-900">
+        <h1 className="text-3xl md:text-4xl font-semibold mb-16 text-gray-800">
           My Story
         </h1>
 
-        <div className="space-y-6 text-lg md:text-xl text-gray-700 leading-relaxed">
+        <div className="space-y-8 text-lg md:text-xl text-gray-700 leading-relaxed">
           <p>
             Hi, I'm Tim. At school, my favourite subjects were Science, Maths
             and Art. Like other kids my age, I wasn't sure what I wanted to do
@@ -25,23 +25,24 @@ export default function About() {
           </p>
 
           <p>
-            Over time, I realised I missed using my creativity, which is what
-            made me love Art at school. I've always loved technology, and have
-            fond memories of receiving my first Game Boy as a Christmas present.
+            Over time, I realised I missed being creative, the thing that made
+            Art so rewarding for me at school. I've always loved technology, and
+            have fond memories of receiving my first Game Boy as a Christmas
+            present.
           </p>
 
           <p>
-            When looking into other career options, I discovered software
-            development offered a perfect blend of Science, Tech and Art. This
-            led me to take the CS50 course, which I absolutely loved, making me
-            pursue a career in Tech.
+            As I explored new career options, I was drawn to software
+            development for its unique balance of science, technology, and
+            creativity. Motivated by this, I completed the CS50 course, which I
+            found incredibly engaging, and it confirmed my passion for a career
+            in Tech.
           </p>
 
           <p>
-            I quit my job as a Pharmacist and enrolled on the School of Code
-            bootcamp. Since completing the bootcamp, I've really enjoyed
-            applying my new skills creating my own projects whilst continuing to
-            learn and grow.
+            I left my job as a Pharmacist and was thrilled to be accepted onto
+            the School of Code bootcamp. Since graduating, I've loved creating
+            projects with my new skills whilst continuing to learn and grow.
           </p>
         </div>
       </div>
