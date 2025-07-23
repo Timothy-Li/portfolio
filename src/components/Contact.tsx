@@ -77,7 +77,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="border text-gray-800 px-6 py-2 rounded transition-colors hover:border-teal-600 hover:text-teal-600 font-semibold"
+            className="border border-gray-400 text-gray-800 text-xl px-6 py-2 rounded transition-colors hover:border-teal-600 hover:text-teal-800 font-semibold"
             disabled={status === "sending"}
           >
             {status === "sending" ? "Sending..." : "Send"}
@@ -100,7 +100,7 @@ export default function Contact() {
             href="https://github.com/Timothy-Li"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-amber-400 hover:border-amber-400 transition"
+            className="p-4 rounded-full border border-gray-400 text-gray-600 hover:text-amber-600 hover:border-amber-600 transition"
           >
             <FaGithub className="w-8 h-8" />
           </a>
@@ -108,7 +108,7 @@ export default function Contact() {
           <a
             href="/timli-cv.pdf"
             download
-            className="flex items-center gap-2 p-4 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-amber-400 hover:border-amber-400 transition"
+            className="flex items-center gap-2 p-4 rounded-full border border-gray-400 text-gray-600 hover:text-amber-600 hover:border-amber-600 transition font-semibold"
           >
             <FaFileDownload className="w-8 h-8" />
             <span className="hidden md:inline">Download CV</span>
@@ -118,7 +118,7 @@ export default function Contact() {
             href="https://linkedin.com/in/timothy-h-h-li"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-amber-400 hover:border-amber-400 transition"
+            className="p-4 rounded-full border border-gray-400 text-gray-600 hover:text-amber-600 hover:border-amber-600 transition"
           >
             <FaLinkedin className="w-8 h-8" />
           </a>
