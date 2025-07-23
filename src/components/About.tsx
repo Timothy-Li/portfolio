@@ -13,9 +13,10 @@ export default function About() {
 
         <div className="space-y-8 text-lg md:text-xl text-gray-600 leading-relaxed">
           <p>
-            Hi, I'm Tim. At school, my favourite subjects were Science, Maths
-            and Art. Like other kids my age, I wasn't sure what I wanted to do
-            for work, so my parents guided me towards a career in healthcare.
+            Hi, I&#39;m Tim. At school, my favourite subjects were Science,
+            Maths and Art. Like other kids my age, I wasn&#39;t sure what I
+            wanted to do for work, so my parents guided me towards a career in
+            healthcare.
           </p>
 
           <p>
@@ -26,7 +27,7 @@ export default function About() {
 
           <p>
             Over time, I realised I missed being creative, the thing that made
-            Art so rewarding for me at school. I've always loved technology,
+            Art so rewarding for me at school. I&#39;ve always loved technology,
             ever since receiving my first Game Boy as a Christmas present.
           </p>
 
@@ -40,7 +41,7 @@ export default function About() {
 
           <p>
             I left my job as a Pharmacist and was lucky enough to be accepted
-            onto the School of Code bootcamp. Since graduating, I've really
+            onto the School of Code bootcamp. Since graduating, I&#39;ve really
             enjoyed creating projects with my new skills whilst continuing to
             learn and grow.
           </p>
