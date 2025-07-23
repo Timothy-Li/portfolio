@@ -5,7 +5,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Timothy Li",
   description: "My personal portfolio site",
 };
 
