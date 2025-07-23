@@ -100,17 +100,17 @@ export default function Contact() {
             href="https://github.com/Timothy-Li"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-8 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-teal-700 hover:border-teal-700 transition"
+            className="p-4 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-amber-400 hover:border-amber-400 transition"
           >
-            <FaGithub className="w-6 h-6" />
+            <FaGithub className="w-8 h-8" />
           </a>
 
           <a
             href="/timli-cv.pdf"
             download
-            className="flex items-center gap-2 p-7 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-teal-700 hover:border-teal-700 transition"
+            className="flex items-center gap-2 p-4 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-amber-400 hover:border-amber-400 transition"
           >
-            <FaFileDownload className="w-6 h-6" />
+            <FaFileDownload className="w-8 h-8" />
             <span className="hidden md:inline">Download CV</span>
           </a>
 
@@ -118,9 +118,9 @@ export default function Contact() {
             href="https://linkedin.com/in/timothy-h-h-li"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-8 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-teal-700 hover:border-teal-700 transition"
+            className="p-4 rounded-full border border-gray-400 text-gray-600 hover:text-white hover:bg-amber-400 hover:border-amber-400 transition"
           >
-            <FaLinkedin className="w-6 h-6" />
+            <FaLinkedin className="w-8 h-8" />
           </a>
         </div>
       </div>

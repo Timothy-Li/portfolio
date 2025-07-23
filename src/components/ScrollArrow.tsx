@@ -14,7 +14,7 @@ export default function ScrollArrow({ targetId }: ScrollArrowProps) {
 
   return (
     <div
-      className="absolute bottom-10 left-1/2 transform -translate-x-1/2 cursor-pointer select-none"
+      className="absolute bottom-10 left-1/2 cursor-pointer select-none"
       onClick={handleClick}
       style={{
         width: "40px",
@@ -39,10 +39,10 @@ export default function ScrollArrow({ targetId }: ScrollArrowProps) {
         {`
           @keyframes bounce {
             0%, 100% {
-              transform: translateY(0);
+              transform: translateX(-50%) translateY(0);
             }
             50% {
-              transform: translateY(-15%);
+              transform: translateX(-50%) translateY(-25%);
             }
           }
         `}

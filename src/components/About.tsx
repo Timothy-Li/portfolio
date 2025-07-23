@@ -26,9 +26,8 @@ export default function About() {
 
           <p>
             Over time, I realised I missed being creative, the thing that made
-            Art so rewarding for me at school. I've always loved technology, and
-            have fond memories of receiving my first Game Boy as a Christmas
-            present.
+            Art so rewarding for me at school. I've always loved technology,
+            ever since receiving my first Game Boy as a Christmas present.
           </p>
 
           <p>
@@ -40,9 +39,10 @@ export default function About() {
           </p>
 
           <p>
-            I left my job as a Pharmacist and was thrilled to be accepted onto
-            the School of Code bootcamp. Since graduating, I've loved creating
-            projects with my new skills whilst continuing to learn and grow.
+            I left my job as a Pharmacist and was lucky enough to be accepted
+            onto the School of Code bootcamp. Since graduating, I've really
+            enjoyed creating projects with my new skills whilst continuing to
+            learn and grow.
           </p>
         </div>
       </div>

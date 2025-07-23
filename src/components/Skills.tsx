@@ -34,7 +34,7 @@ export default function Skills() {
       className="relative min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center"
     >
       <div className="max-w-6xl">
-        <h1 className="text-3xl md:text-4xl font-semibold mb-20 text-gray-700">
+        <h1 className="text-3xl md:text-4xl font-semibold mb-24 text-gray-700">
           My Toolkit
         </h1>
 

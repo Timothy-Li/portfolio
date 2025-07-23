@@ -22,7 +22,7 @@ export default function Home() {
       <h1 className="text-4xl md:text-7xl font-semibold text-slate-600 mb-4">
         Timothy Li
       </h1>
-      <p className="text-1xl md:text-3xl text-teal-600 flex items-center justify-center">
+      <p className="text-1xl md:text-3xl text-amber-500 flex items-center justify-center">
         {isDone ? (
           "Software Developer"
         ) : (
