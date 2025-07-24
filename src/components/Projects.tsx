@@ -65,7 +65,7 @@ export default function Projects() {
         <button
           onClick={() => instanceRef.current?.prev()}
           disabled={currentSlide === 0}
-          className={`absolute left-0 z-10 px-6 py-4 text-4xl text-gray-600 font-bold bg-white shadow-md rounded-full transition hover:text-amber-500 disabled:opacity-0`}
+          className={`absolute left-0 z-10 px-6 py-4 text-4xl text-gray-600 font-bold bg-white shadow-md rounded-full transition hover:text-amber-500 disabled:opacity-0 hidden md:block`}
         >
           {"<"}
         </button>
@@ -122,7 +122,7 @@ export default function Projects() {
         <button
           onClick={() => instanceRef.current?.next()}
           disabled={currentSlide === projects.length - 1}
-          className={`absolute right-0 z-10 px-6 py-4 text-4xl text-gray-600 font-bold bg-white shadow-md rounded-full transition hover:text-amber-500 disabled:opacity-0`}
+          className={`absolute right-0 z-10 px-6 py-4 text-4xl text-gray-600 font-bold bg-white shadow-md rounded-full transition hover:text-amber-500 disabled:opacity-0 hidden md:block`}
         >
           {">"}
         </button>
@@ -134,7 +134,7 @@ export default function Projects() {
             key={idx}
             onClick={() => instanceRef.current?.moveToIdx(idx)}
             className={`w-4 h-4 rounded-full transition-colors ${
-              currentSlide === idx ? "bg-amber-400" : "bg-gray-200"
+              currentSlide === idx ? "bg-amber-300" : "bg-gray-100"
             }`}
           ></button>
         ))}
