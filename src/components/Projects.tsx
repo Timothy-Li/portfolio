@@ -134,7 +134,7 @@ export default function Projects() {
             key={idx}
             onClick={() => instanceRef.current?.moveToIdx(idx)}
             className={`w-4 h-4 rounded-full transition-colors ${
-              currentSlide === idx ? "bg-amber-400" : "bg-gray-200"
+              currentSlide === idx ? "bg-amber-300" : "bg-gray-100"
             }`}
           ></button>
         ))}
