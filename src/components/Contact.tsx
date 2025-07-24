@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
 
 export default function Contact() {
   const [status, setStatus] = useState<
@@ -107,11 +107,12 @@ export default function Contact() {
 
           <a
             href="/timli-cv.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 p-4 rounded-full border border-gray-400 text-gray-600 hover:text-amber-600 hover:border-amber-600 transition font-semibold"
           >
-            <FaFileDownload className="w-8 h-8" />
-            <span className="hidden md:inline">Download CV</span>
+            <FaFilePdf className="w-8 h-8" />
+            <span className="hidden md:inline">View CV</span>
           </a>
 
           <a
