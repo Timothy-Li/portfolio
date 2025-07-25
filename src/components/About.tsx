@@ -13,37 +13,46 @@ export default function About() {
 
         <div className="space-y-8 text-lg md:text-xl text-gray-600 leading-relaxed">
           <p>
-            Hi, I&#39;m Tim. At school, my favourite subjects were Science,
-            Maths and Art. Like other kids my age, I wasn&#39;t sure what I
-            wanted to do for work, so my parents guided me towards a career in
-            healthcare.
+            <span className="italic">Hi, I&#39;m Tim</span>. At school, my
+            favourite subjects were Science, Maths and Art. Like other teenagers
+            my age, I wasn&#39;t sure what I wanted to do for work, so my
+            parents suggested a career in healthcare.
           </p>
 
           <p>
-            I subsequently studied Pharmacy at university, leading to a
-            successful career as a Pharmacist. Although I enjoyed aspects of my
-            work I never felt fulfilled.
+            I went on to study Pharmacy at university, and worked hard to build
+            a successful career as a{" "}
+            <span className="font-semibold">Pharmacist</span>. Although I
+            enjoyed aspects of my work{" "}
+            <span className="font-semibold">I never felt truly fulfilled</span>.
           </p>
 
           <p>
-            Over time, I realised I missed being creative, the thing that made
-            Art so rewarding for me at school. I&#39;ve always loved technology,
-            ever since receiving my first Game Boy as a Christmas present.
+            I realised I{" "}
+            <span className="text-amber-500">missed being creative</span>, the
+            spark that made me enjoy Art so much at school, and drives my love
+            for cooking. My{" "}
+            <span className="text-amber-500">passion for technology</span>{" "}
+            started early, ever since unwrapping my first Game Boy as a
+            Christmas present.
           </p>
 
           <p>
             As I explored new career options, I was drawn to software
-            development for its unique balance of science, technology, and
-            creativity. Motivated by this, I completed the CS50 course, which I
-            found incredibly engaging, and it confirmed my passion for a career
-            in Tech.
+            development for its blend of science, technology, and creativity.
+            Excited by this, I completed the{" "}
+            <span className="text-teal-500">CS50 course</span>, which I really
+            enjoyed, motivating me to pursue a career in tech.
           </p>
 
           <p>
-            I left my job as a Pharmacist and was lucky enough to be accepted
-            onto the School of Code bootcamp. Since graduating, I&#39;ve really
-            enjoyed creating projects with my new skills whilst continuing to
-            learn and grow.
+            I left my job as a Pharmacist and was fortunate enough to be
+            accepted onto the{" "}
+            <span className="text-teal-500">School of Code bootcamp</span>.
+            Since graduating, I&#39;ve been engrossed in{" "}
+            <span className="text-teal-500">building personal projects</span>{" "}
+            with my new skills whilst{" "}
+            <span className="italic">continuing to learn and grow</span>.
           </p>
         </div>
       </div>

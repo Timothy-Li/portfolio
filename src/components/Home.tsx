@@ -19,7 +19,7 @@ export default function Home() {
       id="home"
       className="relative min-h-screen  flex flex-col justify-center items-center text-center"
     >
-      <h1 className="text-4xl md:text-7xl font-semibold text-slate-600 mb-4">
+      <h1 className="text-4xl md:text-7xl font-semibold text-gray-500 mb-4">
         Timothy Li
       </h1>
       <p className="text-1xl md:text-3xl text-amber-500 flex items-center justify-center">

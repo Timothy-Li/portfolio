@@ -25,7 +25,7 @@ export default function ScrollArrow({ targetId }: ScrollArrowProps) {
       <svg
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#00897B"
+        stroke="#14B8A6"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
